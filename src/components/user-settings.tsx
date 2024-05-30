@@ -14,7 +14,7 @@ export const UserSettings = () => {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <div className="w-8 h-8 bg-gray-200 rounded-full flex items-center group justify-center cursor-pointer hover:bg-gray-300 transition-all">
+        <div className="w-8 h-8 bg-gray-200 dark:bg-gray-600 rounded-full flex items-center group justify-center cursor-pointer hover:bg-gray-300 transition-all">
           <User className="w-4 h-4 font-bold group-hover:text-btn " />
         </div>
       </DropdownMenuTrigger>

@@ -21,7 +21,7 @@ export const ThemeSwitcher = () => {
         <Button
           variant="outline"
           size="icon"
-          className="w-8 h-8 rounded-full bg-gray-200"
+          className="w-8 h-8 rounded-full bg-gray-200 dark:bg-gray-600"
         >
           <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
           <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
